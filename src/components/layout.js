@@ -4,6 +4,7 @@ import Header from "./header"
 import Menu from "./menu"
 
 import "../assets/style.css"
+import "@wordpress/block-library/build-style/style.css"
 
 const Layout = ({ children }) => (
   <div>
