@@ -21,8 +21,7 @@ module.exports = {
       resolve: `gatsby-source-wordpress-experimental`,
       options: {
         url:
-          process.env.WPGRAPHQL_URL ||
-          `https://dev-gatsby-source-wordpress-v4.pantheonsite.io/graphql`,
+          process.env.WPGRAPHQL_URL || `http://34.90.252.189/graphql`,
         verbose: true,
         develop: {
           hardCacheMediaFiles: true,
